@@ -1,0 +1,17 @@
+<div class="card mb-3 p-1 border-warning">
+    <div class="row">
+        <div class="col-3">
+            <img src="/assets/images/{{prd.imageUrl}}" alt="" class="card-img-top">
+        </div>
+          <div class="col-9">
+            <div class="card-body">
+            <h5 class="card-title">{{prd.name}}</h5>
+            <p class="card-text">{{prd.description}}</p>
+            <button (click)="unselectProduct(prd)" class="btn btn-primary">Seçimi Kaldır</button>
+            
+            </div>
+         </div>
+        </div>
+    </div>
+
+
